@@ -38,5 +38,5 @@ Si intentamos enviar de nuevo el mismo archivo
 Si intentamos enviar un archivo con una extension no permitida, en este caso ensenada.exe
 ![imagen](https://github.com/user-attachments/assets/bc068e34-b660-4e94-bb99-f430a22419fc)
 
-Y finalmente podemos descargar el archivo enviado usando el endpoint /download/ensenada.jpg, como se trata de un metodo GET, podemos entrar desde el navegador donde se descargara automaticamente el archivo:
+Y finalmente podemos descargar el archivo enviado usando el endpoint localhost/download/ensenada.jpg, como se trata de un metodo GET, podemos entrar desde el navegador donde se descargara automaticamente el archivo:
 ![imagen](https://github.com/user-attachments/assets/e8cff161-c383-4290-b281-fd02d42f1ccc)
