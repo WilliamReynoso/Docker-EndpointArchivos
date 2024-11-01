@@ -27,7 +27,8 @@ Si vamos a localhost/upload en el navegador obtenemos un error ya que al acceder
 
 Entramos a POSTMAN y realizamos una POST request a localhost/upload, con un body dando la ruta del archivo que se desea enviar, en este caso la imagen ensenada.jpg
 ![imagen](https://github.com/user-attachments/assets/fd560f6b-9a5f-42a2-9ed6-1ab4d35082e3)
-la realizamos y vemos que el archivo se cargo correctamente:
+La realizamos y vemos que el archivo se cargo correctamente:
+
 ![imagen](https://github.com/user-attachments/assets/d2482d89-d913-4cc8-991a-ddbf8395bb27)
 
 Entramos al contenedor de Flask en Docker y vemos el archivo en la carpeta ./uploads que preparamos:
