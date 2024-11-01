@@ -22,6 +22,7 @@ Implementar lógica de control de errores para evitar cargas fallidas, archivos 
 ### Pruebas y Resultados
 
 Si vamos a localhost/upload en el navegador obtenemos un error ya que al acceder estamos utilizando el metodo GET en lugar de POST.
+
 ![imagen](https://github.com/user-attachments/assets/4ad2061f-f64f-4c2e-92f8-fba58eda6b83)
 
 Entramos a POSTMAN y realizamos una POST request a localhost/upload, con un body dando la ruta del archivo que se desea enviar, en este caso la imagen ensenada.jpg
